@@ -165,3 +165,127 @@ main {
 .hide {
   display: none;
 }
+
+/* Adicionando media queries para ajustar o layout em telas menores */
+@media only screen and (max-width: 996px) {
+  main {
+    flex-direction: column; /* Altera a direção do flex para empilhar os elementos verticalmente */
+  }
+
+  .alert,
+  .button_container {
+    margin-left: 40px;
+  }
+
+  .logo {
+    width: 50px;
+    padding: 40px 0 0 20px;
+  }
+
+  .text_box_container {
+    /* margin-left: 240px; */
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .text_box {
+    width: 90%;
+  }
+
+  .text_box_container {
+    margin-left: 20px;
+  }
+
+  .text_box {
+    padding-left: 20px;
+    padding-top: 56px;
+    font-size: 20px;
+  }
+
+  .button_container {
+    margin-bottom: 40px;
+  }
+
+  .encrypt_button,
+  .decrypt_button {
+    width: 328px;
+    height: 50px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+  }
+
+  .result_container__img {
+    display: none; /* Oculta o elemento com essa classe */
+  }
+
+  .result_container {
+    margin: auto;
+    width: 90%;
+  }
+
+  .result_container__solution__text {
+    color: #495057;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: -80px;
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 120px;
+    width: calc(100% + 150px);
+  }
+
+  .copy_button {
+    top: 70px;
+    height: 50px;
+    width: 500px;
+    left: -60px;
+    border-radius: 18px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .text_box {
+    width: 80%;
+  }
+
+  .alert,
+  .button_container {
+    margin-left: 24px;
+  }
+
+  .alert {
+    margin-top: 80px;
+    font-size: 12px;
+  }
+
+  .button_container {
+    display: block;
+  }
+  .encrypt_button {
+    margin-bottom: 24px;
+  }
+
+  .result_container {
+    min-height: 300px;
+  }
+
+  .result_container__solution__text {
+    color: #495057;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 20px;
+    z-index: 1;
+    overflow-y: auto;
+    max-height: 180px;
+    width: calc(100% - 50px);
+  }
+
+  .copy_button {
+    width: 279px;
+    left: 45px;
+    top: 100px;
+  }
+}
