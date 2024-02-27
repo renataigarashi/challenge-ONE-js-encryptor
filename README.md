@@ -4,7 +4,7 @@ Implementation of the first challenge: a Text Decoder in JavaScript. The develop
 
 ##
 
-Access [https://maritrombini.github.io/challenge-ONE-js-encryptor/](https://maritrombini.github.io/challenge-ONE-js-encryptor/) to view the application.
+Access [https://renataigarashi.github.io/challenge-ONE-js-encryptor/](https://renataigarashi.github.io/challenge-ONE-js-encryptor/) to view the application.
 
 <p align="center">
   <img src="./github/preview.png" style="align:center;" align="center" > 
