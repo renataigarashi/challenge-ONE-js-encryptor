@@ -17,34 +17,41 @@
     </header>
     <main>
       <section>
-        <div class="text_box_container">
-          <textarea placeholder="Insert text here" class="text_box"></textarea>
-        </div>
-        <div class="alert">
-          <img src="images/alert.svg" alt="alert" />
-          <p>Only lowercase letters and without accents.</p>
-        </div>
-        <div class="button_container">
-          <button class="encrypt_button">Encrypt</button>
-          <button class="decrypt_button">Decrypt</button>
+        <div class="section_text_box">
+          <div class="text_box_container">
+            <textarea
+              placeholder="Insert text here"
+              class="text_box"
+            ></textarea>
+          </div>
+          <div class="alert">
+            <img src="images/alert.svg" alt="alert" />
+            <p>Only lowercase letters and without accents.</p>
+          </div>
+          <div class="button_container">
+            <button class="encrypt_button">Encrypt</button>
+            <button class="decrypt_button">Decrypt</button>
+          </div>
         </div>
       </section>
-      <section class="result_container">
-        <div class="result_container__img">
-          <img
-            src="images/magnifyingGlass.svg"
-            alt="Girl with a magnifying glass"
-          />
-        </div>
-        <div class="result_container__msg">
-          <h3>No message found</h3>
-          <p>Enter the text you want to encrypt or decrypt.</p>
-        </div>
-        <div class="result_container__solution">
-          <p class="result_container__solution__text"></p>
-        </div>
-        <div class="result_container__copy_text">
-          <button class="copy_button hide">Copy Text</button>
+      <section>
+        <div class="result_container">
+          <div class="result_container__img">
+            <img
+              src="images/magnifyingGlass.svg"
+              alt="Girl with a magnifying glass"
+            />
+          </div>
+          <div class="result_container__msg">
+            <h3>No message found</h3>
+            <p>Enter the text you want to encrypt or decrypt.</p>
+          </div>
+          <div class="result_container__solution">
+            <p class="result_container__solution__text"></p>
+          </div>
+          <div class="result_container__copy_text">
+            <button class="copy_button hide">Copy Text</button>
+          </div>
         </div>
       </section>
     </main>
